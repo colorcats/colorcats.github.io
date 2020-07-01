@@ -1,0 +1,19 @@
+#web_bg {
+    /* 背景图像的地址（url括号里）  */
+    /*background: url(http://pic.netbian.com/uploads/allimg/190403/205325-1554296005906a.jpg);
+    /* 背景图像不重复 */
+    background-repeat: no-repeat;
+    /* 背景图像大小 */
+    background-size: cover;
+    background-image: url("https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("http://pic.netbian.com/uploads/allimg/190403/205325-1554296005906a.jpg");
+  }
+  /* 文章页背景 */
+.layout_post>#post {
+  /* 以下代表白色透明度为0.3 */
+  background: rgba(255,255,255,.8);
+}
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+  /* 以下代表白色透明度为0.3 */
+  background: rgba(255,255,255,.8);
+}
