@@ -3151,9 +3151,6 @@ _:future,
   margin: 0 auto;
   padding: 2rem 15px;
   max-width: 1200px;
-  opacity: 0.9;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-  filter: alpha(opacity=90);
 }
 #recent-posts {
   width: 75%;
@@ -4592,7 +4589,7 @@ img {
   padding: 0.3rem 0 0.8em;
 }
 .has-jax {
-  overflow: visible;
+  overflow: auto;
 }
 #article-container .aplayer {
   margin: 0 0 1rem;
