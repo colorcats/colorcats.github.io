@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-01T14:02:30.115Z</updated>
+  <updated>2020-07-02T11:33:30.553Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,70 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>about</title>
-    <link href="http://yoursite.com/2020/07/01/about/"/>
-    <id>http://yoursite.com/2020/07/01/about/</id>
-    <published>2020-07-01T14:02:30.000Z</published>
-    <updated>2020-07-01T14:02:30.115Z</updated>
-    
-    <content type="html"><![CDATA[<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.2.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.2.0/dist/mindmap.min.css">]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;h
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>第一篇“</title>
-    <link href="http://yoursite.com/2020/06/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E2%80%9C/"/>
-    <id>http://yoursite.com/2020/06/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E2%80%9C/</id>
+    <title>科创项目-视觉追踪系统</title>
+    <link href="http://yoursite.com/2020/06/30/%E7%A7%91%E5%88%9B%E9%A1%B9%E7%9B%AE-%E8%A7%86%E8%A7%89%E8%BF%BD%E8%B8%AA%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://yoursite.com/2020/06/30/%E7%A7%91%E5%88%9B%E9%A1%B9%E7%9B%AE-%E8%A7%86%E8%A7%89%E8%BF%BD%E8%B8%AA%E7%B3%BB%E7%BB%9F/</id>
     <published>2020-06-30T03:57:54.000Z</published>
-    <updated>2020-07-02T01:40:29.008Z</updated>
+    <updated>2020-07-02T11:33:30.553Z</updated>
     
-    <content type="html"><![CDATA[<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.2.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.2.0/dist/mindmap.min.css">]]></content>
+    <content type="html"><![CDATA[<h1 id="博客的主要用途"><a href="#博客的主要用途" class="headerlink" title="博客的主要用途"></a>博客的主要用途</h1><h1 id="视觉追踪系统"><a href="#视觉追踪系统" class="headerlink" title="视觉追踪系统"></a>视觉追踪系统</h1><h2 id="项目简介"><a href="#项目简介" class="headerlink" title="项目简介"></a>项目简介</h2><p>​        四月底开始接触这个项目，主要的目的是制作出一套能够实时采集<strong>瞳孔数据</strong>，通过<strong>数据分析</strong>得到注视点，最终呈现出来。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A(摄像头采集双眼图像)--&gt;B(图像预处理)</span><br><span class="line">B--&gt;C(计算视线)</span><br><span class="line">C--&gt;D(在环境图像中标注注视点)</span><br><span class="line">D--&gt;A</span><br></pre></td></tr></table></figure><p>​        整个项目在明年年中结项，最后的成果呈现预计要有一套完整硬件设备、配套算法以及各种测试数据。  </p><p>​        就我个人而言我对图像处理与数据分析部分更感兴趣，所以可能会主要做这方面的工作（项团内部至今还没有人员分工 :sweat_smile:）。</p><hr><h2 id="项目任务安排"><a href="#项目任务安排" class="headerlink" title="项目任务安排"></a>项目任务安排</h2><p>​        受疫情影响，一直不能回校。再加上五六月连着两个月考试，项团小组至今都没有独立讨论过项目进度安排。个人认为这并不是一个好开端，由于不了解其他人对整个项目的参与热情，也不便发起讨论。</p><p>​        但总的来说，在返校前各自就项目所需进行知识学习肯定是首要的。返校后应该会尽快开展项目细节的讨论，确定项目的具体方案。</p><hr><h2 id="项目涉及技术"><a href="#项目涉及技术" class="headerlink" title="项目涉及技术"></a>项目涉及技术</h2><h3 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h3><p>​        这部分主要包括电路中的控制部分与视觉采集部分，以及框架的建模。</p><p>​        电路部分具体用什么控制，以及用什么方式与视觉采集部分相连还没有确定，但我目前是打算先用树莓派尝试编写算法（吃灰已久:new_moon_with_face:）。因为要小型化，所以估计未来要上其他的单片机（又是我的知识盲区了:crying_cat_face:）。如果开学前我能把算法方面的东西学的差不多，可能也会试着学一下AD。</p><p>​        框架的话，组里的两个学长好像比较擅长建模，估计会在其他部分设计完成后，由他们进行框架建模。</p><p>​        但就技术难度而言，硬件这部分并不大，主要是<strong>明暗双目图像采集</strong>，以及<strong>环境图像采集</strong>，一共是三个摄像头。最主要的就是要实现三个摄像头的正常工作以及位置标定。</p><h3 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h3><p>​        这部分可以拓展的就比较多了。</p><p>​        最基础的视觉追踪，需要能对明暗双目图像进行处理，得到瞳孔信息，通过数据处理得到视线方程。主要目标就是稳定、准确、快速。</p><p>​        </p><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.2.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.2.0/dist/mindmap.min.css">]]></content>
     
     <summary type="html">
     
       
       
-        &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;h
+        &lt;h1 id=&quot;博客的主要用途&quot;&gt;&lt;a href=&quot;#博客的主要用途&quot; class=&quot;headerlink&quot; title=&quot;博客的主要用途&quot;&gt;&lt;/a&gt;博客的主要用途&lt;/h1&gt;&lt;h1 id=&quot;视觉追踪系统&quot;&gt;&lt;a href=&quot;#视觉追踪系统&quot; class=&quot;headerlink&quot; 
       
     
     </summary>
     
     
     
-      <category term="-测试文档" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/06/30/hello-world/"/>
-    <id>http://yoursite.com/2020/06/30/hello-world/</id>
-    <published>2020-06-30T03:53:27.976Z</published>
-    <updated>2020-06-30T03:53:27.976Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text/javascript" src="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.2.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-simple-mindmap@0.2.0/dist/mindmap.min.css">]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
+      <category term="-科创项目 -机器视觉 -动态更新" scheme="http://yoursite.com/tags/%E7%A7%91%E5%88%9B%E9%A1%B9%E7%9B%AE-%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89-%E5%8A%A8%E6%80%81%E6%9B%B4%E6%96%B0/"/>
     
   </entry>
   
